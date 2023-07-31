@@ -16,7 +16,7 @@ Stop:
 
 Build:
 
-You'll have to replace `$NEW_RELIC_API_KEY` build arg with an actual value and you can optionally pass `LOG_EXPORTER_LOG_LEVEL`.
+Replace `$NEW_RELIC_API_KEY` build arg with an actual value and you can optionally pass `LOG_EXPORTER_LOG_LEVEL`.
 
 ```
 docker build --build-arg="NEW_RELIC_API_KEY=$NEW_RELIC_API_KEY" -t otel-collector .
